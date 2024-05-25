@@ -8,7 +8,16 @@ const config: Config = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+
+
     extend: {
+       colors: {
+          gradientLeft: "#282E78",
+          gradientRight: "#B7B7A4",
+
+       },
+
+
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

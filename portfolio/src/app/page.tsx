@@ -19,7 +19,7 @@ export default function Home() {
     <Person/>
     <About/>
     <Projects/>
-    <Services/>
+    <Services/> 
     <Bottom/>
     
     </>

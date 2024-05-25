@@ -1,6 +1,6 @@
 
-const MenuButon = ({title}:{title:string}) => {
+const MenuButton = ({title}:{title:string}) => {
     return <a href={"/#"+title}>{title}</a>;
 }
 
-export default MenuButon;
+export default MenuButton;

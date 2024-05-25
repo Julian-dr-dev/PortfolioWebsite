@@ -1,13 +1,20 @@
-import MenuButon from "../navigation/MenuButton";
+'use client'
+
+import UseScroll from "../hooks/useScroll";
+import MenuButton from "../navigation/MenuButton";
 
 function Navbar() {
-    return <div className="flex justify-center items-center h-14 w-full bg-black text-white">
-        <MenuButon title={"About"}/>
-        <MenuButon title={"Projects"}/>
-        <MenuButon title={"Person"}/>
 
+    const isAtTop = UseScroll();
 
+    return <div className={`mobile:hidden sticky -mt-14 top-0 z-50 ${isAtTop?'opacity-100':'opacity-0 hover:opacity-100 transition-opacity duration-500'} flex justify-end items-center h-14 w-full bg-black text-white`} >
+        <div className="flex justify-around text-2xl w-1/2 items-center">
+            <MenuButton title={"About"} />
+            <MenuButton  title={"Projects"} />
+            <MenuButton  title={"Services"} />
+           
+        </div>
     </div>
-
 }
+
 export default Navbar;
