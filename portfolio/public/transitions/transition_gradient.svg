@@ -3,8 +3,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1440 320" transform="rotate(180)">
     <defs>
         <linearGradient id="a" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#B7B7A4" />
-            <stop offset="100%" stop-color="#282E78" />
+            <stop offset="0%" stop-color="#004e92" />
+            <stop offset="100%" stop-color="#000428" />
         </linearGradient>
         <filter id="b" width="120" height="120">
             <feOffset in="SourceAlpha" dy="20" />
