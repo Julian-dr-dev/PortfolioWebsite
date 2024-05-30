@@ -14,7 +14,8 @@ const config: Config = {
     },
     extend: {
       colors: {
-        lightcyan: '#84ffff',
+        
+        lightcyan: '#ffffff',
         gradientLeft: '#000428',
         gradientRight: '#004e92',    
       },

@@ -10,7 +10,7 @@ function Typing (){
                 500,
                 'React.js',
                 500,
-                'Python',
+                '& Python',
                 500
 
 
