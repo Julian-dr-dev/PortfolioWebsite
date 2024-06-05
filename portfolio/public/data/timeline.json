@@ -1,0 +1,18 @@
+{
+    "data": [
+        {
+            "title": "Information security analyst",
+            "company": "Department of Managed healthcare",
+            "tasks": "Building modern web applications with API integration such as landingpages and dashboards",
+            "tags": ["Typescript", "Microsfot 365", "TailwindCSS"],
+            "year": "2023-"
+        },
+        {
+            "title": "Senior project Technical Lead",
+            "company": "Bay Develops",
+            "tasks": "Designed and implemented responsive user interfaces for a custom website providing the web presence and architecture for a bussiness to bussiness IT and security solutions company.",
+            "tags": ["React", "Typescript", "Redux", "SQL", "Python"],
+            "year": "2023-2024"
+        }
+    ]
+}

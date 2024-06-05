@@ -9,3 +9,5 @@ const Burger = () => {
         </button>
     )
 }
+
+export default Burger;

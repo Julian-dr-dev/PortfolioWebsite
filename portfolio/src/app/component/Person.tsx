@@ -10,7 +10,7 @@ function Person() {
     return <div id="Person" className="flex justify-center items-center h-screen text-white bg-gradient-to-r from-gradientLeft to-gradientRight">
         <div className="flex flex-row items-center w-full flex-1">
             <div className="flex flex-col z-20 pointer-events-none text-white w-3/5">
-                <p className="text-[5vw] font-bold text-lightcyan w-full">mi llamo es Julian </p>
+                <p className="text-[5vw] font-bold text-lightcyan w-full"></p>
                 <p className="text=[3vw" >your mom knows how to do
                     <Typing/>
                 </p>
