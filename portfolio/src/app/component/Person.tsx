@@ -11,7 +11,7 @@ function Person() {
         <div className="flex flex-row items-center w-full flex-1">
             <div className="flex flex-col z-20 pointer-events-none text-white w-3/5">
                 <p className="text-[5vw] font-bold text-lightcyan w-full"></p>
-                <p className="text=[3vw" >your mom knows how to do
+                <p className="text=[3vw" >Hello, my name is Julian, a developer specializing in web/mobile apllications using 
                     <Typing/>
                 </p>
                 <div className="flex mt-6 justify-start w-[17vw]"> <SocialMedia size={100}  /></div>
